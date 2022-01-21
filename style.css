@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: Raleway;
+  color: black;
+  margin: 0px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0x;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffb6c1;
+  font-size: 25px;
+}
+
+.navlink {
+  color: black;
+}
+
+.navlink:hover {
+  color: white;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffb347;
+  padding: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+#project-text {
+   background-color: #90ee90;
+   margin: 0px;
+   text-align: center;
+   padding: 4px;
+}
+
+.project-tile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  background-color: #90ee90;
+  height: 370px;
+}
+
+.tile {
+  background-color: rgb(203, 195, 227);
+  color: black;
+  margin-bottom: 20px;
+}
+
+.tile:hover {
+  opacity: 0.5;
+}
+
+#img-1, #img-2, #img-3, #img-4 {
+  height: 1fr;
+  width: 22vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.tile-title {
+  text-align: center;
+}
+
+#find_me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #add8e6;
+  padding: 0px;
+  text-align: center;
+}
+
+#github-img {
+  height: 20vh;
+}
+
+@media (max-width: 800px) {
+  body {
+    color: darkblue;
+  }
+}
