@@ -48,21 +48,21 @@ h2 {
    padding: 4px;
 }
 
-.project-tile {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start
   background-color: #90ee90;
   height: 370px;
 }
 
-.tile {
+.card {
   background-color: rgb(203, 195, 227);
   color: black;
   margin-bottom: 20px;
 }
 
-.tile:hover {
+.card:hover {
   opacity: 0.5;
 }
 
@@ -75,8 +75,12 @@ h2 {
   padding: 10px;
 }
 
-.tile-title {
+.card-title {
   text-align: center;
+}
+
+.card-description {
+  font-style: italic;
 }
 
 #find_me {

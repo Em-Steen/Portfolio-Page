@@ -1,2 +1,2 @@
 # Portfolio-Page
-A portfolio page showcasing my projects so far, built with the freeCodeCamp Responsive Web Design Certificate requirements in mind.
+A project gallery showcasing some of my coding projects, built with the Founders and Coders application requirements in mind.
