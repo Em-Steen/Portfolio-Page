@@ -42,24 +42,24 @@ h2 {
 }
 
 #project-text {
-   background-color: #90ee90;
    margin: 0px;
    text-align: center;
    padding: 4px;
+   background-color: #ffb6c1;
 }
 
 .project-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start
+  justify-content: space-around;
   background-color: #90ee90;
-  height: 370px;
 }
 
 .card {
-  background-color: rgb(203, 195, 227);
+  background-color: #ffb6c1;
   color: black;
-  margin-bottom: 20px;
+  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .card:hover {
@@ -72,7 +72,7 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 .card-title {
@@ -84,21 +84,21 @@ h2 {
 }
 
 #find_me {
-  height: 100vh;
   display: flex;
+  height: 150px;
   flex-direction: column;
   justify-content: center;
-  background-color: #add8e6;
+  background-color: lightblue;
   padding: 0px;
   text-align: center;
 }
 
 #github-img {
-  height: 20vh;
+  height: 50px;
 }
 
-@media (max-width: 800px) {
-  body {
-    color: darkblue;
+@media (max-width: 390px) {
+  .project-cards {
+    flex-direction: column;
   }
 }
