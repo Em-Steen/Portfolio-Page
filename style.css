@@ -95,6 +95,11 @@ h2 {
   text-align: center;
 }
 
+button {
+  text-align: center;
+  color: red;
+}
+
 #find_me {
   display: flex;
   height: 150px;
