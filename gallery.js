@@ -1,17 +1,3 @@
-//Have a clickable button on each card that opens and closes the description text
-
-//need to refactor so that I have one function for all button class, not for individual buttons
-
-//this function may help to refactor to make function apply to all buttons, but currently not working in this state
-//function toggleText(e) {
-    //if (e.target.parentElement.lastChild.style.visibility == 'hidden') {
-       // e.target.parentElement.lastChild.style.visibility='visible';
-        //} else {
-          //e.target.parentElement.lastChild.style.visibility='hidden';
-        //}
-       //}
-
-//4 refactor
 
 let button1 = document.getElementById("button1");
 let button2 = document.getElementById("button2");
